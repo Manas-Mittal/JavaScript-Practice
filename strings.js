@@ -38,4 +38,14 @@ console.log(accnt.padStart(16, "ab"));//first arg. is total number of characters
 
 //padEnd()->works same as padStart but it pads the specified string at the end. 
 
+//Slice->takes start, end and return a sections of string, start will be index based and end will be position based.
+console.log(str.slice(0, 1));
 
+//split and join method
+//split->split string into substring and returns them into an array.
+//join method joins the contents of array back into string on the basis of specified separator
+
+//quotes will not allow us to store multiline strings but backticks will allow us to do that.
+//also using backticks appending variables between string is easy.
+let str8 = `My name is ${str}`;
+console.log(str8);
