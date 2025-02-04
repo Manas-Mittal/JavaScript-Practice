@@ -1,8 +1,8 @@
-const acc_id = 1234; //cannot be changed later
+const acc_id = 1234; //cannot be changed later and const variables are necessary to initialized while declaration
 let acc_email = "manas@gmail.com";
 var acc_pass = "23456";
 acc_city = "kanpur"; //this variable is a global variable, even if it is declared inside any scope
-let acc_state; //not initialised so its value will be undefined
+let acc_state; //not initialized so its value will be undefined
 
 //acc_id = 2; //error statement because const cannot be changed later
 console.log(acc_id);
