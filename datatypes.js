@@ -14,7 +14,7 @@ bigint
 symbol
 */
 var a = 7;
-console.log(typeof a); // can be used to determine typeof any variable
+console.log(typeof a); // can be used to determine typeof any variable, it can also store negative as well as floating point numbers also
 
 let b = "Manas" // string
 console.log(typeof b);
@@ -55,9 +55,19 @@ let bigvar = 123456789101213n;//bigint number is intialised with 'n' as suffix.
 //or by using BigInt() constructor
 let variable = BigInt(1234567891023547);
 
+console.log(2**2); //its 2^2
 
+//falsy values
+/*
+false
+null
+undefined
+0
+-0
+NaN
+'', "", ``
+*/
+//other that the above list all the values are truthy values.
 
-
-
-
+//null value is set by programmers and undefined value is set by the js compiler
 
