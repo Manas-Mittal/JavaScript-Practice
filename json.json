@@ -1,0 +1,20 @@
+//json stands for javaScript object notation, its a lightweight data interchange format thats easy for humans to read and write and for machines to parse and generate.
+
+//property key must be double qouted
+{
+    "name": "Manas",
+    "age": 21,
+    "E-Mail": "manas@gmail.com",
+    "hobbies": ["Playing", "Coding", "Music"],
+    //nested json obj
+    "address": {
+        "city": "Kanpur",
+        "country": "India"
+    }
+}
+
+//JSON.strigify() -> converts js object into json string
+
+//json_obj = JSON.stringify(object_name) this will convert js object into json format.
+
+//JSON.parse() -> convert json format data into js object.
