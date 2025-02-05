@@ -10,3 +10,9 @@ function sayHello(name){
     console.log(`Hello to ${name}`)
 }
 sayHello("Manas");
+
+//return keyword
+function func(x, y){
+    return x+y;
+}
+console.log(func(10, 20));
