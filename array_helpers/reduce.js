@@ -46,4 +46,35 @@ const people = [
   // Ternary Operator
   const oldestAge = people.reduce((p, c) => (c.age > p ? c.age : p), 0);
   console.log(oldestAge);
+
+  const words = [
+      "apple",
+      "banana",
+      "orange",
+      "banana",
+      "apple",
+      "orange",
+      "apple",
+      "grape",
+    ];
+
+    const freqMap = words.reduce(function(frequencyMap, word){
+        if(frequencyMap.hasOwnProperty(word) === true){
+            frequencyMap[word] += 1;
+        }
+        else{
+            frequencyMap[word] = 0;
+        }
+        return frequencyMap;
+    }, {});
+
+    console.log(freqMap);
+
+    //NOTE -> reduce method takes few arguements that are:
+    // array.reduce(callback(accumulator, currentValue, index, array), initialValue)
+
+    //here accumulator is assigned with initialValue and the current value stores current element in the iteration.
+
+    //after each iteration accumulator is returned to reduce method and reduce method updates the accumultor for the next callback function call after the last callback function call accumulator is returned to reduce method and from there as there is no next call to be made reduce method returns the final accumulator.
+
   // ------------------------------------
