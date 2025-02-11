@@ -77,4 +77,11 @@ const people = [
 
     //after each iteration accumulator is returned to reduce method and reduce method updates the accumultor for the next callback function call after the last callback function call accumulator is returned to reduce method and from there as there is no next call to be made reduce method returns the final accumulator.
 
+  //
+  // Exercise:
+    const myArr = [1, 2, 3, 4];
+    const result = myArr.reduce(function(previous, current, index, array){
+        return previous * current;
+    }, 1);
+    console.log(result);
   // ------------------------------------
