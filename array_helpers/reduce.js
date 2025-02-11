@@ -1,9 +1,9 @@
-// The "reducer" method executes a reducer function for array element.
-// The "reducer" method returns a single value: the function's accumulated result.
-// The "reducer" method does not execute the function for empty array elements.
-// The "reducer" method does not change the original array.
+// The "reduce" method executes a reducer function for array element.
+// The "reduce" method returns a single value: the function's accumulated result.
+// The "reduce" method does not execute the function for empty array elements.
+// The "reduce" method does not change the original array.
 
-// array.reducer(function(total, currentValue, currentIndex, arr), initialValue)
+// array.reduce(function(total, currentValue, currentIndex, arr), initialValue)
 
 // ------------------------------------
 // Example 1
